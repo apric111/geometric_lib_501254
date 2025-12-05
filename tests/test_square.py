@@ -36,3 +36,10 @@ class SquareTestCase(unittest.TestCase):
 
         per_res = perimeter(12345678910111213.123)
         self.assertEqual(per_res, 4.9382715640444856e+16)
+
+    def test_negative(self):
+        area_res = area(-10)
+        self.assertEqual(area_res, None)
+
+        per_res = perimeter(-10)
+        self.assertEqual(per_res, None)

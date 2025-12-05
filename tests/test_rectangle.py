@@ -93,3 +93,10 @@ class RectangleTestCase(unittest.TestCase):
         self.assertEqual(per_res1, 23)
         self.assertEqual(per_res2, 23)
         self.assertEqual(per_res1, per_res2)
+    
+    def test_negative(self):
+        area_res = area(-10, -5)
+        self.assertEqual(area_res, None)
+
+        per_res = perimeter(-10, -5)
+        self.assertEqual(per_res, None)

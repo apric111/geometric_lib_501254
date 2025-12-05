@@ -36,3 +36,10 @@ class CircleTestCase(unittest.TestCase):
 
         per_res = perimeter(12345678910111213.123)
         self.assertEqual(per_res, 7.757018833516766e+16)
+    
+    def test_negative(self):
+        area_res = area(-10)
+        self.assertEqual(area_res, None)
+
+        per_res = perimeter(-10)
+        self.assertEqual(per_res, None)

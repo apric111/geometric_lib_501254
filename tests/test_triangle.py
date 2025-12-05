@@ -62,3 +62,10 @@ class TriangleTestCase(unittest.TestCase):
 
         per_res = perimeter(1, 3.5, math.sqrt(13.25))
         self.assertEqual(per_res, 8.140054944640259)
+    
+    def test_negative(self):
+        area_res = area(-10, -5)
+        self.assertEqual(area_res, None)
+
+        per_res = perimeter(-10, -5, -3)
+        self.assertEqual(per_res, None)

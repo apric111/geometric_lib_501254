@@ -21,5 +21,3 @@ def perimeter(a, b):
             (a + b) * 2 (float): the perimeter of the rectangle with sides a and b
     ''' 
     return (a + b) * 2
-
-print(perimeter(12345678910111213.123, 987654321.321))

@@ -1,4 +1,3 @@
-import math
 def area(a, h): 
     '''
     Returns the area of the triangle.
@@ -23,6 +22,3 @@ def perimeter(a, b, c):
             a + b + c (float): the perimeter of a triangle with sides a, b, c
     '''
     return a + b + c 
-
-print(area(12345678910111213.123, 987654321.321))
-print(perimeter(12345.67, 98765.43, 111111.11))

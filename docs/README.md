@@ -85,6 +85,9 @@ Examlple of a call:
 - `perimeter(10, 10, 10)` returns 30, since 10 + 10 + 10 = 30
 - `perimeter(20, 30, 40)` returns 90, since 20 + 30 + 40 = 90
 
+# Unit-test
+In the tests folder, you can find the corresponding tests for the files rectangle.py , square.py , circle.py , triangle.py
+
 # History of change
 - commit 078b7a2, date - Thu Oct 16 23:26:30 2025:
     Added new file rectangle.py
@@ -93,3 +96,8 @@ Examlple of a call:
     Added new file triangle.py
     Fixed mistake in function in ractangle.py
 
+- commit b0373f1, date - Thu Dec 4 15:57:33 2025:
+    Added unit-tests
+
+- commit fefb82c, date - Thu Dec 4 16:26:02 2025:
+    Added gitignore
